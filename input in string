@@ -1,0 +1,17 @@
+import  java.util.*;
+class Main{
+    public static void main(String SANTHOSH[]){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Bro Enter Your Password :-");
+        String a =in.nextLine();
+        //String b =in.nextLine();
+        if(a.equals("apple")){
+            System.out.println("Good to go ");
+        }
+        if(a.equals("Ball")){
+            System.out.println("Code read");
+            System.out.println(" tell what is the massage:-");
+
+        }
+        }
+}
