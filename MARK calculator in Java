@@ -1,0 +1,33 @@
+import java.util.*;
+
+class Mark{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter your Name:-");
+        String name =in.nextLine();
+        System.out.println("Enter the Five Subject Mark or 10th Mark :-");
+        System.out.println("Tamil subject mark:");
+        int T=in.nextInt();
+        System.out.println("English subject mark:");
+        int E=in.nextInt();
+        System.out.println("Maths subject mark:");
+        int M=in.nextInt();
+        System.out.println("Science subject mark:");
+        int S=in.nextInt();
+        System.out.println("Social Science subject mark:");
+        int SO=in.nextInt();
+        int mark=T+E+M+S+SO;
+        int pre=mark/5;
+        float cgp=mark/5;
+        System.out.println("Your Name:- "+name);
+        //System.out.println(T);
+        //System.out.println(E);
+        //System.out.println(M);
+        //System.out.println(S);
+        //System.out.println(SO);
+        System.out.println("Your all Subject Mark is:- "+mark);
+        System.out.println("Your Percentage is:- " +pre+"/100");
+        System.out.println("Your CGP IS:- "+cgp);
+        System.out.println("<<-----------------ALL THE BEST------------------>>");
+    }
+}
