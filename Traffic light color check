@@ -1,0 +1,20 @@
+import java.util.*;
+class Traffic{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the traffic light color");
+        System.out.println("like,  red.    yellow.   green. this format ");
+        String color =in.nextLine();
+        if(color.equals("red")){
+            System.out.println("STOP");
+        } else if (color.equals("yellow")) {
+            System.out.println("READY");
+        } else if (color.equals("green")) {
+            System.out.println("Good to go");
+        }
+        else {
+            System.out.println("Check the spelling or Invalid output ");
+        }
+        System.out.println("<<------------ THANKS ---------->>");
+    }
+}
