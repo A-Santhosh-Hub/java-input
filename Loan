@@ -1,0 +1,18 @@
+import java.util.*;
+ class Loan{
+     public static void main(String[] args) {
+         Scanner in = new Scanner(System.in);
+         System.out.println("Enter your AGE and SALARY pre Month:");
+         System.out.println("Age:");
+         int age = in.nextInt();
+         System.out.println("Salary:");
+         int amount = in.nextInt();
+         System.out.println("Your Criteria is:");
+         if(age>=20 && amount>=15000){
+             System.out.println("Eligible loan");
+         }else {
+             System.out.println("Not Fit for Loan");
+         }
+         System.out.println("<<----------THANK YOU---------->>");
+     }
+ }
