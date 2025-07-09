@@ -1,26 +1,17 @@
 import java.util.*;
 class TU3 {
     public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);    
-        // System.out.println("Enter The Number:");
-        // int  a = in.nextInt();
-        // System.out.println("Enter The Number:");
-        // int b= in.nextInt();
-        // int c=a+b;
-        // System.out.println(c);
-        // System.out.println("Enter Your Name:");
-        // String name=in.nextLine();
-        // System.out.println(name.charAt(2));
-
-        boolean rain= false;
-        if(false){
-            System.out.println("Now It's Rain");
-
+    Scanner in = new Scanner(System.in);   
+    System.out.println("Enter the Two Number's"); 
+        int num1=in.nextInt();
+        int num2=in.nextInt();
+        if(num1>num2){
+        System.out.println("The Number: "+num1+" is Big "+(num1>num2));
         }
+
         else{
-            System.out.println("No Rain Good To Go");
+
+        System.out.println("The Number: "+num1+" is Summall "+(num1>num2));
         }
-
-
     }
 }
