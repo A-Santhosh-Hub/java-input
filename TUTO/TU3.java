@@ -8,9 +8,19 @@ class TU3 {
         // int b= in.nextInt();
         // int c=a+b;
         // System.out.println(c);
-        System.out.println("Enter Your Name:");
-        String name=in.nextLine();
-        System.out.println(name.charAt(2));
+        // System.out.println("Enter Your Name:");
+        // String name=in.nextLine();
+        // System.out.println(name.charAt(2));
+
+        boolean rain= false;
+        if(false){
+            System.out.println("Now It's Rain");
+
+        }
+        else{
+            System.out.println("No Rain Good To Go");
+        }
+
 
     }
 }
