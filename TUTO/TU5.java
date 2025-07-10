@@ -6,11 +6,11 @@ class TU5 {
 
         int a  = in.nextInt();
 
-        if(a<7000){
-            System.out.println("Your fail");
+        if(a%2==0){
+            System.out.println("This Numer "+ a+" Divisible  By 2");
         }
         else{
-            System.out.println("you Pass");
+            System.out.println("This Numer Not "+ a+" Divisible  By 2");
         }
     }
 }
