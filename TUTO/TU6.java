@@ -3,6 +3,7 @@ import java.util.Scanner;
 class TU6 {
     public static void main(String[] args) {
         Scanner  in = new Scanner(System.in);
+        System.out.println("Enter The Numbesr 5");
         // String [] ABC= {"A","B","C","D"};
         // String [] name= new String[3];
         // name [1]="SANTHOSH";
@@ -17,5 +18,7 @@ class TU6 {
         num[2]=in.nextInt();
         num[3]=in.nextInt();
         num[4]=in.nextInt();
+
+        System.out.println(num[0]+num[1]+num[2]+num[3]+num[4]);
     }
 }
