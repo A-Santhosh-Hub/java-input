@@ -13,12 +13,10 @@ class TU6 {
         // System.out.println(ABC[1]);
 
         int num[]=new int[5];
-        num[0]=in.nextInt();
-        num[1]=in.nextInt();
-        num[2]=in.nextInt();
-        num[3]=in.nextInt();
-        num[4]=in.nextInt();
-        System.out.println("Your Exam Score is: ");
-        System.out.println(num[0]+num[1]+num[2]+num[3]+num[4]);
+   
+        for(int i=0;i<=5;i++){
+            num[i]=in.nextInt();
+        }
+        
     }
 }
