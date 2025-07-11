@@ -1,11 +1,21 @@
-public class TU6 {
+import java.util.Scanner;
+
+class TU6 {
     public static void main(String[] args) {
-        String [] ABC= {"A","B","C","D"};
-        String [] name= new String[3];
-        name [1]="SANTHOSH";
-        name[0]="A";
-        name[2]="B";
-        System.out.println(name[1]);
-        System.out.println(ABC[1]);
+        Scanner  in = new Scanner(System.in);
+        // String [] ABC= {"A","B","C","D"};
+        // String [] name= new String[3];
+        // name [1]="SANTHOSH";
+        // name[0]="A";
+        // name[2]="B";
+        // System.out.println(name[1]);
+        // System.out.println(ABC[1]);
+
+        int num[]=new int[5];
+        num[0]=in.nextInt();
+        num[1]=in.nextInt();
+        num[2]=in.nextInt();
+        num[3]=in.nextInt();
+        num[4]=in.nextInt();
     }
 }
