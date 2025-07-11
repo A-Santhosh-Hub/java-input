@@ -18,7 +18,7 @@ class TU6 {
         num[2]=in.nextInt();
         num[3]=in.nextInt();
         num[4]=in.nextInt();
-
+        System.out.println("Your Exam Score is: ");
         System.out.println(num[0]+num[1]+num[2]+num[3]+num[4]);
     }
 }
