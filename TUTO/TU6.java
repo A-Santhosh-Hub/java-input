@@ -14,9 +14,9 @@ class TU6 {
 
         int num[]=new int[5];
    
-        for(int i=0;i<=5;i++){
+        for(int i=1;i<=5;i++){
             num[i]=in.nextInt();
         }
-        
+            System.out.println(num);
     }
 }
