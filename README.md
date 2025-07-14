@@ -5,4 +5,5 @@ JAVA INPUT
 4. Create MARK calculator in Java
 5. Traffic light color check
 6. Create a Traffic light color check in JAVA
-7. input in string
+7. input in strings
+8. Tutorial 
